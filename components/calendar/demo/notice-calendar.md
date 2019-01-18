@@ -76,7 +76,7 @@ function monthCellRender(value) {
 }
 
 ReactDOM.render(
-  <Calendar dateCellRender={dateCellRender} monthCellRender={monthCellRender} />,
+  <Calendar dateFullCellRender={dateCellRender} monthCellRender={monthCellRender} />,
   mountNode
 );
 ````
